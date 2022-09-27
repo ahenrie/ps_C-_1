@@ -1,0 +1,25 @@
+#include <iostream>
+using std::cout;
+using std::cin;
+
+int main()
+{
+        cout << "34, 43, 3424, 2356467, 3563456734567" << '\n';
+        cout << "Hello\n";
+        // o of iostream
+        int abc = 5;
+        cout << abc << '\n';
+
+        cout << '\n' << '\n';
+        int i = 2 + 2;
+        cout << i << '\n';
+        i = i * 3;
+        cout << i << '\n';
+
+        //input of iostream
+        cout << "Enter a number\n";
+        int numb;
+        cin >> numb;
+        cout << '\n' << numb << '\n';
+
+}
